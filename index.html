@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ningchen Textile Technology | Woven Fabric Supplier</title>
+  <meta name="description" content="Ningchen Textile Technology supplies linen, recycled polyester, cotton, rayon and blended fabrics to brands, garment factories and wholesalers worldwide." />
+
+  <!-- ============ SECURITY HEADERS (static-hosting friendly) ============
+       GitHub Pages serves over HTTPS automatically. Turn on "Enforce HTTPS"
+       in Settings > Pages. The policy below limits where scripts, styles,
+       images and form submissions can go. -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com;
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    font-src 'self' https://fonts.gstatic.com;
+    img-src 'self' data: https:;
+    connect-src 'self' https://formspree.io;
+    form-action 'self' https://formspree.io;
+    base-uri 'self';
+    object-src 'none';
+    upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: {
+            brand: {
+              50: '#f2f6f8', 100: '#e0eaef', 200: '#c2d5df', 300: '#94b6c6',
+              400: '#5f8ea6', 500: '#3f718b', 600: '#2f5a71', 700: '#27495c',
+              800: '#1f3a49', 900: '#152a36', 950: '#0c1a23'
+            },
+            accent: { 400: '#e3b36a', 500: '#d49a3f', 600: '#b97f2a' }
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body { font-feature-settings: "cv11", "ss01"; }
+    .swatch { background-size: cover; background-position: center; }
+    .fade-in { opacity: 0; transform: translateY(12px); transition: opacity .6s ease, transform .6s ease; }
+    .fade-in.show { opacity: 1; transform: none; }
+    input:focus, select:focus, textarea:focus { outline: none; }
+    .hp-field { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+  </style>
+</head>
+
+<body class="bg-white text-slate-800 font-sans antialiased">
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header id="top" class="fixed inset-x-0 top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3">
+        <span class="w-9 h-9 rounded-md bg-brand-800 flex items-center justify-center">
+          <svg viewBox="0 0 24 24" class="w-5 h-5 text-accent-400" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 6h18M3 12h18M3 18h18M6 3v18M12 3v18M18 3v18" stroke-opacity=".9"/>
+          </svg>
+        </span>
+        <span class="leading-tight">
+          <span class="block font-extrabold tracking-tight text-brand-900" data-config="companyName">Ningchen Textile</span>
+          <span class="block text-[11px] uppercase tracking-[0.2em] text-slate-500">Technology</span>
+        </span>
+      </a>
+
+      <ul class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+        <li><a href="#home" class="hover:text-brand-700 transition">Home</a></li>
+        <li><a href="#catalog" class="hover:text-brand-700 transition">Catalog</a></li>
+        <li><a href="#quality" class="hover:text-brand-700 transition">Quality</a></li>
+        <li><a href="#contact" class="hover:text-brand-700 transition">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="hidden md:inline-flex items-center rounded-md bg-brand-800 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-700 transition">Get a Quote</a>
+
+      <button id="menuBtn" class="md:hidden p-2 rounded-md text-slate-700 hover:bg-slate-100" aria-label="Open menu" aria-expanded="false">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </nav>
+
+    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 bg-white">
+      <ul class="px-4 py-3 space-y-1 text-sm font-medium">
+        <li><a href="#home" class="block rounded px-3 py-2 hover:bg-slate-100">Home</a></li>
+        <li><a href="#catalog" class="block rounded px-3 py-2 hover:bg-slate-100">Catalog</a></li>
+        <li><a href="#quality" class="block rounded px-3 py-2 hover:bg-slate-100">Quality</a></li>
+        <li><a href="#contact" class="block rounded px-3 py-2 hover:bg-slate-100">Contact</a></li>
+        <li><a href="#contact" class="block rounded px-3 py-2 bg-brand-800 text-white text-center mt-2">Get a Quote</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section id="home" class="relative pt-16 overflow-hidden bg-brand-950">
+      <div id="heroBg" class="absolute inset-0 swatch opacity-40"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-brand-950 via-brand-950/90 to-brand-900/40"></div>
+
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-36 grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-accent-400">
+            <span class="w-1.5 h-1.5 rounded-full bg-accent-400"></span> B2B Woven Fabric Supplier
+          </p>
+          <h1 class="mt-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.05]">
+            Reliable Fabrics.<br /><span class="text-accent-400">Ready to Ship.</span>
+          </h1>
+          <p class="mt-6 max-w-xl text-lg text-slate-300 leading-relaxed">
+            <span data-config="companyName">Ningchen Textile Technology</span> supplies natural, recycled and blended fabrics to apparel brands, garment manufacturers and wholesalers. Consistent quality, in-stock programs and fast sampling, backed by documented inspection on every roll.
+          </p>
+          <div class="mt-10 flex flex-col sm:flex-row gap-4">
+            <a href="#contact" class="inline-flex justify-center items-center gap-2 rounded-md bg-accent-500 px-7 py-3.5 text-base font-semibold text-brand-950 shadow-lg shadow-accent-500/20 hover:bg-accent-400 transition">
+              Request a Quote
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#catalog" class="inline-flex justify-center items-center rounded-md border border-white/30 px-7 py-3.5 text-base font-semibold text-white hover:bg-white/10 transition">
+              Browse Catalog
+            </a>
+          </div>
+        </div>
+
+        <div class="hidden lg:grid grid-cols-3 gap-3" id="heroSwatches" aria-hidden="true"></div>
+      </div>
+
+      <!-- Stats bar -->
+      <div class="relative border-t border-white/10 bg-brand-950/60">
+        <dl class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div><dt class="text-xs uppercase tracking-widest text-slate-400">Fabric Programs</dt><dd class="mt-1 text-3xl font-bold text-white">300+</dd></div>
+          <div><dt class="text-xs uppercase tracking-widest text-slate-400">Sample Dispatch</dt><dd class="mt-1 text-3xl font-bold text-white">3–5 days</dd></div>
+          <div><dt class="text-xs uppercase tracking-widest text-slate-400">Export Markets</dt><dd class="mt-1 text-3xl font-bold text-white">30+</dd></div>
+          <div><dt class="text-xs uppercase tracking-widest text-slate-400">Roll Inspection</dt><dd class="mt-1 text-3xl font-bold text-white">100%</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===================== CATALOG ===================== -->
+    <section id="catalog" class="py-20 lg:py-28 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+          <div class="max-w-2xl">
+            <p class="text-sm font-semibold uppercase tracking-widest text-brand-600">Fabric Catalog</p>
+            <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold tracking-tight text-brand-900">Core collections, in stock and made to order</h2>
+            <p class="mt-4 text-slate-600">Specifications below are standard references. Weight, width, finish and colour can be customised to your program.</p>
+          </div>
+          <div id="filterBar" class="flex flex-wrap gap-2" role="tablist" aria-label="Filter fabrics"></div>
+        </div>
+
+        <div id="catalogGrid" class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></div>
+
+        <p class="mt-10 text-center text-sm text-slate-500">
+          Looking for something not listed? <a href="#contact" class="font-semibold text-brand-700 underline underline-offset-4 hover:text-brand-900">Send us your reference swatch or spec</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== QUALITY ===================== -->
+    <section id="quality" class="py-20 lg:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl">
+          <p class="text-sm font-semibold uppercase tracking-widest text-brand-600">Quality Assurance</p>
+          <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold tracking-tight text-brand-900">Certified materials. Inspected rolls. No surprises.</h2>
+          <p class="mt-4 text-slate-600">Every shipment is checked against your approved standard before it leaves our warehouse. Test reports and certificates are available on request.</p>
+        </div>
+
+        <div id="certGrid" class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"></div>
+
+        <div class="mt-16 grid lg:grid-cols-2 gap-10 items-start">
+          <div class="rounded-2xl bg-brand-900 p-8 lg:p-10 text-white">
+            <h3 class="text-xl font-bold">Inspection Standards</h3>
+            <p class="mt-2 text-slate-300 text-sm">Applied to every production lot and in-stock dispatch.</p>
+            <ul id="inspectList" class="mt-6 space-y-4"></ul>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-bold text-brand-900">Our QC Process</h3>
+            <ol class="mt-6 relative border-l-2 border-brand-100 ml-3 space-y-8">
+              <li class="pl-8 relative">
+                <span class="absolute -left-[17px] top-0 w-8 h-8 rounded-full bg-brand-800 text-white text-sm font-bold flex items-center justify-center">1</span>
+                <h4 class="font-semibold text-brand-900">Greige & Yarn Check</h4>
+                <p class="mt-1 text-sm text-slate-600">Yarn count, density and greige fabric inspected before dyeing.</p>
+              </li>
+              <li class="pl-8 relative">
+                <span class="absolute -left-[17px] top-0 w-8 h-8 rounded-full bg-brand-800 text-white text-sm font-bold flex items-center justify-center">2</span>
+                <h4 class="font-semibold text-brand-900">Lab Dip & Strike-off Approval</h4>
+                <p class="mt-1 text-sm text-slate-600">Colour matched under D65 / TL84 light and approved by you before bulk.</p>
+              </li>
+              <li class="pl-8 relative">
+                <span class="absolute -left-[17px] top-0 w-8 h-8 rounded-full bg-brand-800 text-white text-sm font-bold flex items-center justify-center">3</span>
+                <h4 class="font-semibold text-brand-900">Bulk Testing</h4>
+                <p class="mt-1 text-sm text-slate-600">Weight, width, shrinkage, colourfastness and tensile tested per lot.</p>
+              </li>
+              <li class="pl-8 relative">
+                <span class="absolute -left-[17px] top-0 w-8 h-8 rounded-full bg-brand-800 text-white text-sm font-bold flex items-center justify-center">4</span>
+                <h4 class="font-semibold text-brand-900">Final Roll Inspection & Packing</h4>
+                <p class="mt-1 text-sm text-slate-600">Four-point inspection, shade bands, roll labels and packing list sent before shipment.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT / QUOTE FORM ===================== -->
+    <section id="contact" class="py-20 lg:py-28 bg-slate-50 border-t border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-5 gap-12">
+        <div class="lg:col-span-2">
+          <p class="text-sm font-semibold uppercase tracking-widest text-brand-600">Request a Quote</p>
+          <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold tracking-tight text-brand-900">Tell us what you need</h2>
+          <p class="mt-4 text-slate-600">Share your fabric, quantity and target delivery. Our sales team replies within one business day with pricing, lead time and sample options.</p>
+
+          <dl class="mt-10 space-y-6 text-sm">
+            <div class="flex gap-4">
+              <span class="shrink-0 w-10 h-10 rounded-md bg-brand-100 text-brand-700 flex items-center justify-center">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+              </span>
+              <div><dt class="font-semibold text-brand-900">Email</dt><dd><a id="cfgEmail" class="text-slate-600 hover:text-brand-700" href="#"></a></dd></div>
+            </div>
+            <div class="flex gap-4">
+              <span class="shrink-0 w-10 h-10 rounded-md bg-brand-100 text-brand-700 flex items-center justify-center">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+              </span>
+              <div><dt class="font-semibold text-brand-900">Phone / WhatsApp</dt><dd><a id="cfgWhatsapp" class="text-slate-600 hover:text-brand-700" href="#" target="_blank" rel="noopener noreferrer"></a></dd></div>
+            </div>
+            <div class="flex gap-4">
+              <span class="shrink-0 w-10 h-10 rounded-md bg-brand-100 text-brand-700 flex items-center justify-center">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              </span>
+              <div><dt class="font-semibold text-brand-900">Office</dt><dd id="cfgAddress" class="text-slate-600"></dd></div>
+            </div>
+          </dl>
+        </div>
+
+        <div class="lg:col-span-3">
+          <form id="quoteForm" class="rounded-2xl bg-white p-6 sm:p-10 shadow-sm ring-1 ring-slate-200" novalidate>
+            <!-- Honeypot: bots fill this, humans never see it. Formspree drops submissions with _gotcha filled. -->
+            <div class="hp-field" aria-hidden="true">
+              <label for="_gotcha">Leave this empty</label>
+              <input type="text" id="_gotcha" name="_gotcha" tabindex="-1" autocomplete="off" />
+            </div>
+            <input type="hidden" name="_subject" id="formSubject" value="New B2B quote request" />
+
+            <div class="grid sm:grid-cols-2 gap-5">
+              <div>
+                <label for="name" class="block text-sm font-semibold text-slate-700">Full name <span class="text-red-500">*</span></label>
+                <input id="name" name="name" type="text" required maxlength="100" autocomplete="name"
+                  class="mt-2 w-full rounded-md border border-slate-300 px-4 py-2.5 focus:border-brand-500 focus:ring-2 focus:ring-brand-200" />
+              </div>
+              <div>
+                <label for="company" class="block text-sm font-semibold text-slate-700">Company <span class="text-red-500">*</span></label>
+                <input id="company" name="company" type="text" required maxlength="120" autocomplete="organization"
+                  class="mt-2 w-full rounded-md border border-slate-300 px-4 py-2.5 focus:border-brand-500 focus:ring-2 focus:ring-brand-200" />
+              </div>
+              <div>
+                <label for="email" class="block text-sm font-semibold text-slate-700">Business email <span class="text-red-500">*</span></label>
+                <input id="email" name="email" type="email" required maxlength="150" autocomplete="email"
+                  class="mt-2 w-full rounded-md border border-slate-300 px-4 py-2.5 focus:border-brand-500 focus:ring-2 focus:ring-brand-200" />
+              </div>
+              <div>
+                <label for="phone" class="block text-sm font-semibold text-slate-700">Phone / WhatsApp</label>
+                <input id="phone" name="phone" type="tel" maxlength="30" autocomplete="tel" pattern="[0-9+()\-\s]{6,30}"
+                  class="mt-2 w-full rounded-md border border-slate-300 px-4 py-2.5 focus:border-brand-500 focus:ring-2 focus:ring-brand-200" />
+              </div>
+              <div>
+                <label for="country" class="block text-sm font-semibold text-slate-700">Country <span class="text-red-500">*</span></label>
+                <input id="country" name="country" type="text" required maxlength="60" autocomplete="country-name"
+                  class="mt-2 w-full rounded-md border border-slate-300 px-4 py-2.5 focus:border-brand-500 focus:ring-2 focus:ring-brand-200" />
+              </div>
+              <div>
+                <label for="businessType" class="block text-sm font-semibold text-slate-700">Business type</label>
+                <select id="businessType" name="business_type"
+                  class="mt-2 w-full rounded-md border border-slate-300 px-4 py-2.5 bg-white focus:border-brand-500 focus:ring-2 focus:ring-brand-200">
+                  <option value="">Select…</option>
+                  <option>Apparel brand</option>
+                  <option>Garment manufacturer</option>
+                  <option>Wholesaler / Importer</option>
+                  <option>Retailer</option>
+                  <option>Sourcing agent</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div>
+                <label for="fabric" class="block text-sm font-semibold text-slate-700">Fabric of interest <span class="text-red-500">*</span></label>
+                <select id="fabric" name="fabric" required
+                  class="mt-2 w-full rounded-md border border-slate-300 px-4 py-2.5 bg-white focus:border-brand-500 focus:ring-2 focus:ring-brand-200"></select>
+              </div>
+              <div>
+                <label for="requestType" class="block text-sm font-semibold text-slate-700">Request type</label>
+                <select id="requestType" name="request_type"
+                  class="mt-2 w-full rounded-md border border-slate-300 px-4 py-2.5 bg-white focus:border-brand-500 focus:ring-2 focus:ring-brand-200">
+                  <option>Bulk price quote</option>
+                  <option>Sample request</option>
+                  <option>Custom development</option>
+                </select>
+              </div>
+              <div>
+                <label for="quantity" class="block text-sm font-semibold text-slate-700">Estimated quantity (metres)</label>
+                <input id="quantity" name="quantity_m" type="number" min="1" max="10000000" step="1"
+                  class="mt-2 w-full rounded-md border border-slate-300 px-4 py-2.5 focus:border-brand-500 focus:ring-2 focus:ring-brand-200" />
+              </div>
+              <div>
+                <label for="delivery" class="block text-sm font-semibold text-slate-700">Target delivery</label>
+                <input id="delivery" name="target_delivery" type="month"
+                  class="mt-2 w-full rounded-md border border-slate-300 px-4 py-2.5 focus:border-brand-500 focus:ring-2 focus:ring-brand-200" />
+              </div>
+              <div class="sm:col-span-2">
+                <label for="message" class="block text-sm font-semibold text-slate-700">Specifications & notes <span class="text-red-500">*</span></label>
+                <textarea id="message" name="message" rows="5" required maxlength="3000"
+                  placeholder="e.g. GSM, width, colour / Pantone, finish, end use, target price…"
+                  class="mt-2 w-full rounded-md border border-slate-300 px-4 py-2.5 focus:border-brand-500 focus:ring-2 focus:ring-brand-200"></textarea>
+              </div>
+              <div class="sm:col-span-2 flex items-start gap-3">
+                <input id="consent" name="consent" type="checkbox" required class="mt-1 h-4 w-4 rounded border-slate-300 text-brand-700" />
+                <label for="consent" class="text-sm text-slate-600">I agree that <span data-config="companyName">Ningchen Textile Technology</span> may contact me about this inquiry. My details will not be shared with third parties.</label>
+              </div>
+            </div>
+
+            <div id="formStatus" class="hidden mt-6 rounded-md px-4 py-3 text-sm" role="status" aria-live="polite"></div>
+
+            <button id="submitBtn" type="submit"
+              class="mt-8 w-full sm:w-auto inline-flex justify-center items-center gap-2 rounded-md bg-brand-800 px-8 py-3.5 text-base font-semibold text-white hover:bg-brand-700 disabled:opacity-60 disabled:cursor-not-allowed transition">
+              <span id="submitLabel">Submit Inquiry</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="bg-brand-950 text-slate-400">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid gap-8 md:grid-cols-3">
+      <div>
+        <p class="text-white font-bold text-lg" data-config="companyName">Ningchen Textile Technology</p>
+        <p class="mt-3 text-sm leading-relaxed">Woven fabric supply for apparel brands, garment manufacturers and wholesalers worldwide.</p>
+      </div>
+      <div>
+        <p class="text-white font-semibold">Navigate</p>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a href="#home" class="hover:text-white">Home</a></li>
+          <li><a href="#catalog" class="hover:text-white">Catalog</a></li>
+          <li><a href="#quality" class="hover:text-white">Quality</a></li>
+          <li><a href="#contact" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-white font-semibold">Contact</p>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a id="footEmail" class="hover:text-white" href="#"></a></li>
+          <li id="footAddress"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <p class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-xs">© <span id="year"></span> <span data-config="companyName">Ningchen Textile Technology</span>. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+  /* =====================================================================
+     EDIT HERE — everything below this box is driven by these settings.
+     ===================================================================== */
+
+  const CONFIG = {
+    companyName: "Ningchen Textile Technology",
+    email: "sales@ningchentextile.com",          // ← replace with your real email
+    whatsapp: "+86 000 0000 0000",               // ← replace (shown as text)
+    whatsappLink: "https://wa.me/8600000000000", // ← replace (digits only after wa.me/)
+    address: "Your company address, China",      // ← replace
+
+    // 1. Create a free form at https://formspree.io
+    // 2. Paste its endpoint here (looks like https://formspree.io/f/abcdwxyz)
+    formEndpoint: "https://formspree.io/f/YOUR_FORM_ID"
+  };
+
+  /* FABRIC CATALOG — add, remove or reorder entries freely.
+     category : must match one of the filter names in CATEGORIES
+     image    : optional. Paste a real photo URL (e.g. from your GitHub repo:
+                "images/linen.jpg") to replace the generated swatch.
+     swatch   : generated fabric texture used when no image is set.
+                kind = "linen" | "plain" | "twill" | "satin" | "slub" | "rib"
+                colors = [base, highlight, shadow]                          */
+  const CATEGORIES = ["All", "Natural", "Recycled", "Synthetic", "Blends"];
+
+  const FABRICS = [
+    { name: "Organic Linen",       category: "Natural",   image: "",
+      swatch: { kind: "linen", colors: ["#cdbb9c", "#e6d8be", "#9c8a6b"] },
+      composition: "100% Organic Linen", gsm: "150–220", width: '57/58"', finish: "Enzyme wash, soft hand",
+      tags: ["GOTS available", "Breathable"] },
+
+    { name: "Recycled Polyester",  category: "Recycled",  image: "",
+      swatch: { kind: "twill", colors: ["#3f6f8a", "#6d98b0", "#284a5d"] },
+      composition: "100% Recycled Polyester (rPET)", gsm: "90–260", width: '58/60"', finish: "Peach, WR, anti-static",
+      tags: ["GRS certified", "Low MOQ"] },
+
+    { name: "Combed Cotton Poplin", category: "Natural",  image: "",
+      swatch: { kind: "plain", colors: ["#f2f0ea", "#ffffff", "#cfcabd"] },
+      composition: "100% Cotton", gsm: "110–140", width: '57/58"', finish: "Mercerized, easy care",
+      tags: ["OEKO-TEX", "Shirting"] },
+
+    { name: "Rayon Challis",       category: "Natural",   image: "",
+      swatch: { kind: "satin", colors: ["#a2434e", "#cf7180", "#6e2630"] },
+      composition: "100% Rayon (Viscose)", gsm: "100–140", width: '57/58"', finish: "Soft, fluid drape",
+      tags: ["Print base", "Dresses"] },
+
+    { name: "TR Suiting",          category: "Blends",    image: "",
+      swatch: { kind: "twill", colors: ["#3b3f46", "#5d636d", "#24272c"] },
+      composition: "65% Polyester / 32% Rayon / 3% Spandex", gsm: "220–300", width: '57/58"', finish: "Brushed, anti-pilling",
+      tags: ["In stock", "Suiting"] },
+
+    { name: "Linen-Look Slub",     category: "Blends",    image: "",
+      swatch: { kind: "slub", colors: ["#7f8f6d", "#a6b592", "#5a674b"] },
+      composition: "Rayon / Nylon Slub", gsm: "160–200", width: '57/58"', finish: "Washed, natural texture",
+      tags: ["In stock", "Linen alternative"] },
+
+    { name: "Poly Spandex Stretch", category: "Synthetic", image: "",
+      swatch: { kind: "rib", colors: ["#20304a", "#3c5376", "#121d2e"] },
+      composition: "92% Polyester / 8% Spandex", gsm: "180–260", width: '58/60"', finish: "4-way stretch, wrinkle resistant",
+      tags: ["In stock", "Activewear"] },
+
+    { name: "Acetate-Look Satin",  category: "Synthetic", image: "",
+      swatch: { kind: "satin", colors: ["#c6a46a", "#ecd39f", "#8c6c36"] },
+      composition: "100% Polyester", gsm: "110–150", width: '57/58"', finish: "High lustre, smooth drape",
+      tags: ["Eveningwear", "Lining"] }
+  ];
+
+  /* CERTIFICATIONS — only list ones your company actually holds. */
+  const CERTIFICATIONS = [
+    { title: "OEKO-TEX® Standard 100", text: "Tested for harmful substances across yarns, dyes and finished fabric.", icon: "shield" },
+    { title: "GOTS",                   text: "Global Organic Textile Standard for certified organic fibre programs.", icon: "leaf" },
+    { title: "GRS",                    text: "Global Recycled Standard traceability for recycled polyester ranges.", icon: "recycle" },
+    { title: "ISO 9001 QMS",           text: "Documented quality management from order intake to shipment.", icon: "badge" }
+  ];
+
+  const INSPECTION_STANDARDS = [
+    "4-Point System (ASTM D5430) fabric defect grading on every roll",
+    "Colourfastness to washing, rubbing and light (ISO 105 series)",
+    "Dimensional stability / shrinkage testing (AATCC 135)",
+    "Weight & width verification against approved spec (±5%)",
+    "Shade band and continuity control between lots",
+    "Third-party testing available (SGS, Intertek, BV) on request"
+  ];
+
+  /* =====================================================================
+     END OF EDITABLE SETTINGS
+     ===================================================================== */
+
+
+  /* ---------- Helpers ---------- */
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => (
+    { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  const safeUrl = (u) => {
+    if (!u) return "";
+    try {
+      const url = new URL(u, location.href);
+      return ["https:", "http:"].includes(url.protocol) || u.startsWith("images/") ? url.href : "";
+    } catch { return ""; }
+  };
+
+  function seeded(seed) {
+    let s = seed % 2147483647; if (s <= 0) s += 2147483646;
+    return () => (s = s * 16807 % 2147483647) / 2147483647;
+  }
+
+  /* ---------- Generated fabric swatches (SVG) ---------- */
+  function makeSwatch(kind, colors, seed = 7) {
+    const [base, hi, lo] = colors;
+    const W = 400, H = 300, rnd = seeded(seed * 97 + kind.length);
+    let body = "", defs = "";
+
+    if (kind === "plain") {
+      defs += `<pattern id="p" width="6" height="6" patternUnits="userSpaceOnUse">
+        <rect width="6" height="6" fill="${base}"/>
+        <rect width="6" height="3" fill="${hi}" opacity=".45"/>
+        <rect width="3" height="6" fill="${lo}" opacity=".18"/></pattern>`;
+      body += `<rect width="${W}" height="${H}" fill="url(#p)"/>`;
+    } else if (kind === "twill") {
+      defs += `<pattern id="p" width="10" height="10" patternUnits="userSpaceOnUse">
+        <rect width="10" height="10" fill="${base}"/>
+        <path d="M-2.5,2.5 l5,-5 M0,10 l10,-10 M7.5,12.5 l5,-5" stroke="${hi}" stroke-width="2.6" opacity=".55"/>
+        <path d="M-2.5,7.5 l5,-5 M5,10 l5,-5" stroke="${lo}" stroke-width="1" opacity=".35"/></pattern>`;
+      body += `<rect width="${W}" height="${H}" fill="url(#p)"/>`;
+    } else if (kind === "rib") {
+      defs += `<pattern id="p" width="8" height="10" patternUnits="userSpaceOnUse">
+        <rect width="8" height="10" fill="${base}"/>
+        <path d="M0,0 L4,5 L8,0 M0,5 L4,10 L8,5" stroke="${hi}" stroke-width="1.6" fill="none" opacity=".5"/>
+        <path d="M0,2 L4,7 L8,2" stroke="${lo}" stroke-width="1" fill="none" opacity=".35"/></pattern>`;
+      body += `<rect width="${W}" height="${H}" fill="url(#p)"/>`;
+    } else if (kind === "satin") {
+      defs += `<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="${lo}"/><stop offset=".35" stop-color="${base}"/>
+        <stop offset=".5" stop-color="${hi}"/><stop offset=".65" stop-color="${base}"/>
+        <stop offset="1" stop-color="${lo}"/></linearGradient>
+        <pattern id="p" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(25)">
+        <path d="M0,0 L5,0" stroke="${hi}" stroke-width=".6" opacity=".25"/></pattern>`;
+      body += `<rect width="${W}" height="${H}" fill="url(#sheen)"/><rect width="${W}" height="${H}" fill="url(#p)"/>`;
+      body += `<path d="M-20,${H*0.7} C120,${H*0.45} 260,${H*0.9} 420,${H*0.55}" stroke="${hi}" stroke-width="40" fill="none" opacity=".18"/>`;
+    } else {
+      // linen / slub: irregular horizontal yarns + fine warp lines
+      body += `<rect width="${W}" height="${H}" fill="${base}"/>`;
+      for (let x = 0; x < W; x += 3) {
+        body += `<line x1="${x}" y1="0" x2="${x}" y2="${H}" stroke="${lo}" stroke-width=".6" opacity="${(0.08 + rnd()*0.12).toFixed(2)}"/>`;
+      }
+      const step = kind === "slub" ? 4 : 3;
+      for (let y = 0; y < H; y += step) {
+        const w = (0.6 + rnd() * (kind === "slub" ? 2.8 : 1.6)).toFixed(2);
+        const col = rnd() > 0.5 ? hi : lo;
+        body += `<line x1="0" y1="${y}" x2="${W}" y2="${y + (rnd()-0.5)}" stroke="${col}" stroke-width="${w}" opacity="${(0.18 + rnd()*0.3).toFixed(2)}"/>`;
+        if (kind === "slub" && rnd() > 0.6) {
+          const sx = Math.floor(rnd() * W), len = 20 + rnd() * 60;
+          body += `<line x1="${sx}" y1="${y}" x2="${sx + len}" y2="${y}" stroke="${hi}" stroke-width="${(2 + rnd()*2).toFixed(1)}" stroke-linecap="round" opacity=".55"/>`;
+        }
+      }
+    }
+
+    // Lighting & soft fold for a photographic feel
+    defs += `<linearGradient id="light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".28"/></linearGradient>
+      <linearGradient id="fold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset=".5" stop-color="#000" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/></linearGradient>`;
+    body += `<path d="M250,0 C230,90 300,180 270,300 L330,300 C350,190 290,100 310,0 Z" fill="url(#fold)"/>`;
+    body += `<rect width="${W}" height="${H}" fill="url(#light)"/>`;
+
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid slice"><defs>${defs}</defs>${body}</svg>`;
+    return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
+  }
+
+  const ICONS = {
+    shield:  '<path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/>',
+    leaf:    '<path d="M5 19c0-9 6-14 15-14 0 9-5 15-14 15"/><path d="M5 19 13 11"/>',
+    recycle: '<path d="M7 19H4l3-5M17 19h3l-3-5M12 4l-2 3h4z"/><path d="M7 14 10 7M17 14l-3-7M7 19h10"/>',
+    badge:   '<circle cx="12" cy="9" r="5"/><path d="m9 13-2 8 5-3 5 3-2-8"/>'
+  };
+
+  /* ---------- Render: config fields ---------- */
+  document.querySelectorAll('[data-config="companyName"]').forEach(el => {
+    if (el.closest("a[href='#home']")) el.textContent = CONFIG.companyName.replace(/\s*Technology\s*$/i, "");
+    else el.textContent = CONFIG.companyName;
+  });
+  document.title = `${CONFIG.companyName} | Woven Fabric Supplier`;
+  [["cfgEmail"], ["footEmail"]].forEach(([id]) => {
+    const a = document.getElementById(id); a.textContent = CONFIG.email; a.href = "mailto:" + CONFIG.email;
+  });
+  const wa = document.getElementById("cfgWhatsapp");
+  wa.textContent = CONFIG.whatsapp; wa.href = safeUrl(CONFIG.whatsappLink) || "#";
+  document.getElementById("cfgAddress").textContent = CONFIG.address;
+  document.getElementById("footAddress").textContent = CONFIG.address;
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  /* ---------- Render: hero ---------- */
+  document.getElementById("heroBg").style.backgroundImage = `url("${makeSwatch("twill", ["#1c3546", "#2f5a71", "#0c1a23"], 3)}")`;
+  document.getElementById("heroSwatches").innerHTML = FABRICS.slice(0, 6).map((f, i) => {
+    const img = safeUrl(f.image) || makeSwatch(f.swatch.kind, f.swatch.colors, i + 1);
+    return `<div class="swatch aspect-[3/4] rounded-lg ring-1 ring-white/10 shadow-2xl ${i % 2 ? "translate-y-6" : ""}"
+      style="background-image:url('${img}')"></div>`;
+  }).join("");
+
+  /* ---------- Render: catalog ---------- */
+  const grid = document.getElementById("catalogGrid");
+  const filterBar = document.getElementById("filterBar");
+  let activeCat = "All";
+
+  function renderFilters() {
+    filterBar.innerHTML = CATEGORIES.map(c => `
+      <button type="button" data-cat="${esc(c)}" role="tab" aria-selected="${c === activeCat}"
+        class="rounded-full px-4 py-1.5 text-sm font-semibold transition ${c === activeCat
+          ? "bg-brand-800 text-white" : "bg-white text-slate-600 ring-1 ring-slate-200 hover:ring-brand-300"}">${esc(c)}</button>`).join("");
+  }
+
+  function renderCatalog() {
+    const list = FABRICS.filter(f => activeCat === "All" || f.category === activeCat);
+    grid.innerHTML = list.map((f, i) => {
+      const idx = FABRICS.indexOf(f);
+      const img = safeUrl(f.image) || makeSwatch(f.swatch.kind, f.swatch.colors, idx + 1);
+      return `
+      <article class="fade-in group flex flex-col rounded-xl bg-white ring-1 ring-slate-200 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300">
+        <div class="relative aspect-[4/3] swatch" style="background-image:url('${img}')" role="img" aria-label="${esc(f.name)} fabric">
+          <span class="absolute top-3 left-3 rounded bg-white/90 px-2 py-0.5 text-[11px] font-bold uppercase tracking-wider text-brand-800">${esc(f.category)}</span>
+        </div>
+        <div class="flex flex-col flex-1 p-5">
+          <h3 class="text-lg font-bold text-brand-900">${esc(f.name)}</h3>
+          <dl class="mt-4 space-y-2 text-sm">
+            <div class="flex justify-between gap-3"><dt class="text-slate-500">Composition</dt><dd class="text-right font-medium text-slate-800">${esc(f.composition)}</dd></div>
+            <div class="flex justify-between gap-3"><dt class="text-slate-500">Weight</dt><dd class="font-medium text-slate-800">${esc(f.gsm)} GSM</dd></div>
+            <div class="flex justify-between gap-3"><dt class="text-slate-500">Width</dt><dd class="font-medium text-slate-800">${esc(f.width)}</dd></div>
+            <div class="flex justify-between gap-3"><dt class="text-slate-500">Finish</dt><dd class="text-right font-medium text-slate-800">${esc(f.finish)}</dd></div>
+          </dl>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            ${(f.tags || []).map(t => `<span class="rounded bg-brand-50 px-2 py-0.5 text-xs font-medium text-brand-700">${esc(t)}</span>`).join("")}
+          </div>
+          <button type="button" data-sample="${esc(f.name)}"
+            class="mt-auto pt-0 w-full">
+            <span class="mt-5 flex w-full items-center justify-center gap-2 rounded-md border border-brand-800 px-4 py-2.5 text-sm font-semibold text-brand-800 group-hover:bg-brand-800 group-hover:text-white transition">
+              Request Sample
+            </span>
+          </button>
+        </div>
+      </article>`;
+    }).join("");
+    requestAnimationFrame(() => grid.querySelectorAll(".fade-in").forEach((el, i) =>
+      setTimeout(() => el.classList.add("show"), i * 60)));
+  }
+
+  filterBar.addEventListener("click", e => {
+    const b = e.target.closest("button[data-cat]"); if (!b) return;
+    activeCat = b.dataset.cat; renderFilters(); renderCatalog();
+  });
+
+  /* ---------- Render: quality ---------- */
+  document.getElementById("certGrid").innerHTML = CERTIFICATIONS.map(c => `
+    <div class="rounded-xl border border-slate-200 p-6 hover:border-brand-300 hover:shadow-md transition">
+      <span class="w-12 h-12 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">${ICONS[c.icon] || ICONS.badge}</svg>
+      </span>
+      <h3 class="mt-5 font-bold text-brand-900">${esc(c.title)}</h3>
+      <p class="mt-2 text-sm text-slate-600">${esc(c.text)}</p>
+    </div>`).join("");
+
+  document.getElementById("inspectList").innerHTML = INSPECTION_STANDARDS.map(s => `
+    <li class="flex gap-3 text-sm">
+      <svg class="w-5 h-5 shrink-0 text-accent-400" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="m5 12 5 5 9-10"/></svg>
+      <span class="text-slate-200">${esc(s)}</span>
+    </li>`).join("");
+
+  /* ---------- Form ---------- */
+  const fabricSelect = document.getElementById("fabric");
+  fabricSelect.innerHTML = `<option value="">Select a fabric…</option>` +
+    FABRICS.map(f => `<option value="${esc(f.name)}">${esc(f.name)}</option>`).join("") +
+    `<option value="Other / Custom">Other / Custom</option>`;
+
+  grid.addEventListener("click", e => {
+    const b = e.target.closest("button[data-sample]"); if (!b) return;
+    fabricSelect.value = b.dataset.sample;
+    document.getElementById("requestType").value = "Sample request";
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+    setTimeout(() => document.getElementById("name").focus({ preventScroll: true }), 600);
+  });
+
+  const form = document.getElementById("quoteForm");
+  const statusBox = document.getElementById("formStatus");
+  const submitBtn = document.getElementById("submitBtn");
+  const submitLabel = document.getElementById("submitLabel");
+  const loadedAt = Date.now();
+  let lastSubmit = 0;
+
+  function showStatus(type, msg) {
+    statusBox.className = "mt-6 rounded-md px-4 py-3 text-sm " + (type === "ok"
+      ? "bg-emerald-50 text-emerald-800 ring-1 ring-emerald-200"
+      : "bg-red-50 text-red-800 ring-1 ring-red-200");
+    statusBox.textContent = msg;
+  }
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    // Bot checks: honeypot filled, or submitted suspiciously fast
+    if (form._gotcha.value || Date.now() - loadedAt < 3000) {
+      showStatus("ok", "Thank you. Your inquiry has been received."); form.reset(); return;
+    }
+    if (Date.now() - lastSubmit < 30000) {
+      showStatus("err", "Please wait a moment before sending another inquiry."); return;
+    }
+
+    form.querySelectorAll("input, select, textarea").forEach(el => {
+      if (el.type !== "checkbox" && el.type !== "hidden" && typeof el.value === "string") el.value = el.value.trim();
+    });
+
+    if (!form.checkValidity()) {
+      const bad = form.querySelector(":invalid");
+      bad?.focus();
+      showStatus("err", "Please complete all required fields with valid information.");
+      return;
+    }
+
+    if (CONFIG.formEndpoint.includes("YOUR_FORM_ID")) {
+      showStatus("err", `The quote form is not connected yet. Please email us at ${CONFIG.email}.`);
+      return;
+    }
+
+    document.getElementById("formSubject").value =
+      `Quote request: ${fabricSelect.value} — ${form.company.value}`;
+
+    submitBtn.disabled = true; submitLabel.textContent = "Sending…";
+    try {
+      const res = await fetch(CONFIG.formEndpoint, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { "Accept": "application/json" }
+      });
+      if (res.ok) {
+        lastSubmit = Date.now();
+        form.reset();
+        showStatus("ok", "Thank you. Your inquiry has been sent and our sales team will reply within one business day.");
+      } else {
+        const data = await res.json().catch(() => ({}));
+        const msg = data.errors ? data.errors.map(x => x.message).join(", ") : "Something went wrong.";
+        showStatus("err", `${msg} You can also email us at ${CONFIG.email}.`);
+      }
+    } catch {
+      showStatus("err", `Network error. Please try again or email us at ${CONFIG.email}.`);
+    } finally {
+      submitBtn.disabled = false; submitLabel.textContent = "Submit Inquiry";
+    }
+  });
+
+  /* ---------- Mobile menu ---------- */
+  const menuBtn = document.getElementById("menuBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
+  menuBtn.addEventListener("click", () => {
+    const open = mobileMenu.classList.toggle("hidden") === false;
+    menuBtn.setAttribute("aria-expanded", open);
+  });
+  mobileMenu.addEventListener("click", e => { if (e.target.closest("a")) mobileMenu.classList.add("hidden"); });
+
+  /* ---------- Init ---------- */
+  renderFilters();
+  renderCatalog();
+  </script>
+</body>
+</html>
